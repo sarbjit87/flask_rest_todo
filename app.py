@@ -40,7 +40,6 @@ def not_found(error):
 # Add a new task
 @app.route('/task', methods=['POST'])
 def add_task():
-    print(request)
     name = request.json['name']
     new_task = Task(name)
     db.session.add(new_task)
