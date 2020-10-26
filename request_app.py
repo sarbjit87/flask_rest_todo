@@ -3,6 +3,7 @@ import datetime
 
 SERVER = "127.0.0.1:5000"
 
+
 # Get All Tasks
 
 response = requests.get('http://127.0.0.1:5000/task')

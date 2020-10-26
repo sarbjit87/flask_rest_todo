@@ -4,6 +4,7 @@ from flask_marshmallow import Marshmallow
 import os
 from flask import make_response
 
+
 # Initialize the App and database
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
